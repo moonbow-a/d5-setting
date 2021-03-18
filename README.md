@@ -1,1 +1,1 @@
-# d5-setting
+# d5-settings
