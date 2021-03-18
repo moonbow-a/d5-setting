@@ -1,0 +1,42 @@
+* {
+  margin: 15px;
+  padding: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  text-align: center;
+}
+body {
+  margin: auto;
+}
+img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+.first-h6 {
+  color: rgba(48, 130, 253, 0.767);
+}
+.table-center {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 12px 6px;
+}
+
+footer {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1028px) {
+  body {
+    position: static;
+    transform: rotate(0);
+  }
+}
